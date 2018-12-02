@@ -1,10 +1,9 @@
 
- #include "pch.h"
+#include "pch.h"
 #include <stdio.h>
 #include <clocale>
 #include <stdlib.h>
 #include <time.h> 
-
 
 int creation1(char* chek);
 int creation2(char* chek);
@@ -13,7 +12,6 @@ int fill(char* chek);
 void manually(int** arr, char* chek, int n, int m);
 void printArr(int** arr, int n, int m);
 void processing(int** arr, int n, int m);
-
 
 int main()
 {
